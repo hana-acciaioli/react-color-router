@@ -1,12 +1,18 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import Main from './components/Main/Main.js';
+import Nav from './components/Nav/Nav.js';
+import Color from './components/Color/Color.js';
 
 function App() {
   return (
     <div className="App">
+      <Nav />
+      <Route exact path="/">
+        {' '}
+        Home 🏠
+      </Route>
       <Switch>
-        <Route path="/" component={Main} />
+        <Route path="/:redValue/:greenValue/:blueValue" component={Color} />
       </Switch>
     </div>
   );
