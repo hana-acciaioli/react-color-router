@@ -6,4 +6,23 @@ nav {
   /* flex-direction: row; */
   height: 3rem;
   padding: 1rem;
+  margin: 1fr;
+}
+.nav-bar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  margin: 20px;
+}
+nav a {
+  color: whitesmoke;
+  margin: 20px;
 }

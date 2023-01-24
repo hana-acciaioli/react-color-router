@@ -7,11 +7,10 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Route exact path="/">
-        {' '}
-        Home 🏠
-      </Route>
       <Switch>
+        <Route exact path="/">
+          <h1 className="home"></h1>
+        </Route>
         <Route path="/:redValue/:greenValue/:blueValue" component={Color} />
       </Switch>
     </div>
