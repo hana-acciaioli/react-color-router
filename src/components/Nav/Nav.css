@@ -18,11 +18,13 @@ nav {
 
 nav a.active {
   text-decoration: none;
-  font-weight: bold;
   color: inherit;
   margin: 20px;
+  font-family: 'Abril Fatface', cursive;
+  /* font-weight: bold; */
 }
 nav a {
   color: whitesmoke;
   margin: 20px;
+  font-family: 'Abril Fatface', cursive;
 }
