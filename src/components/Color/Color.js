@@ -9,7 +9,7 @@ export default function Color() {
       className="container"
       style={{ backgroundColor: `rgb(${redValue}, ${greenValue}, ${blueValue})` }}
     >
-      <h1>
+      <h1 className="rainbow-text">
         rgb({redValue}, {greenValue}, {blueValue})
       </h1>
     </div>
