@@ -1,0 +1,30 @@
+nav {
+  background-color: rgba(54, 65, 74, 0.8);
+  color: whitesmoke;
+  list-style: none;
+  display: flex(1fr);
+  /* flex-direction: row; */
+  height: 3rem;
+  padding: 1rem;
+  margin: 1fr;
+}
+.nav-bar {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: none;
+  color: inherit;
+  margin: 20px;
+  font-family: 'Abril Fatface', cursive;
+  /* font-weight: bold; */
+}
+nav a {
+  color: whitesmoke;
+  margin: 20px;
+  font-family: 'Abril Fatface', cursive;
+}
